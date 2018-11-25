@@ -1,1 +1,2 @@
 # maxnaza.com
+https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoicEJsY0RKeklBek90R2xlN2NFdW8yVEw0UHV6bHl5ZG5hZnFQZG0vNkVBY1NjTXlHVEY4bnZDNFB2TGNLZGtXSG1GUDhsMkdYWldRSkpVckFab1JpTmpJPSIsIml2UGFyYW1ldGVyU3BlYyI6InBMNjR6TktCR1owWHJaTVgiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master
