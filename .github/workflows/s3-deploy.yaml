@@ -10,8 +10,15 @@ jobs:
     env:
       AWS_S3_BUCKET_NAME: maxnaza.com
       AWS_CF_DISTRIBUTION_ID: ER2I2DJQN8KNM
+    strategy:
+      matrix:
+        node-version: [12.x]
     steps:
       - uses: actions/checkout@master
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
       - uses: jakejarvis/s3-sync-action@master
         name: Upload App to S3 Bucket
         with:
